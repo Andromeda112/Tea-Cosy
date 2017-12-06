@@ -1,0 +1,34 @@
+/*Our Mission*/
+
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.OurMission {
+  margin-top: 69px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  border: 1px solid seashell;
+  display: flex;
+  align-items: center;
+}
+
+.MissionBanner {
+  display: flex;
+  background-color: black;
+  height: 100px;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
+
+.Banner {
+  font-family: Helvetica;
+  color: seashell;
+  width: 1200px;
+}
+
+/*Tea of the Month*/
