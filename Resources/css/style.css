@@ -1,17 +1,57 @@
+body {
+  color: white;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+}
+
+/*Header*/
+.Header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  width: inherit;
+  background-color: black;
+  align-items: center;
+  justify-content: flex-start;
+  top: 0px;
+}
+
+.HeaderImage {
+  padding-left: 10px;
+  height: 50px;
+}
+
+.Headernav {
+position: absolute;
+right: 0px;
+}
+
+.Headernav nav a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 0px 10px;
+}
+
 /*Our Mission*/
 
 .container {
   background-color: black;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
 }
 
 .OurMission {
-  margin-top: 69px;
+  margin-top: 70px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
-  border: 1px solid seashell;
   display: flex;
   align-items: center;
 }
@@ -19,16 +59,72 @@
 .MissionBanner {
   display: flex;
   background-color: black;
-  height: 100px;
+  height: auto;
   flex-wrap: wrap;
   align-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .Banner {
-  font-family: Helvetica;
-  color: seashell;
   width: 1200px;
 }
 
 /*Tea of the Month*/
+
+.TeaoftheMonth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 1000px;
+}
+
+.TeaBanner {
+  text-align: center;
+}
+
+.TeaImages {
+}
+
+.Image {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+/*Locations*/
+
+.Location {
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+height: 500px;
+}
+
+.LocationBanner {
+text-align: center;
+}
+
+.LocationImages {
+display: flex;
+justify-content: center;
+}
+
+.LocationBlock {
+height: 300px;
+width: 300px;
+background-color: black;
+margin: 0px 20px;
+}
+
+/*Footer*/
+
+.footer {
+  height: 200px;
+}
+
+#copyright {
+  padding-left: 20px;
+  display: flex;
+  align-self: flex-start;
+}
